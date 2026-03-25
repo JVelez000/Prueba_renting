@@ -23,7 +23,7 @@ graph TB
     admin -->|"Full administration\nof the system"| eventia
     client -->|"Reports incidents\n(future)"| eventia
 
-    eventia -->|"Sends\notifications"| email "not implemented"
+    eventia -->|"Sends\notifications (not implemented)"| email
     eventia -->|"Authenticates\nusers (optional)"| azure_ad
 ```
 
