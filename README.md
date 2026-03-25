@@ -61,4 +61,3 @@ Para facilitar la evaluación inicial, el sistema crea automáticamente un usuar
 -   `c4_diagram.md`: Visualización arquitectónica (Contenedores y Componentes).
 -   `er_diagram.md`: Esquema relacional de la base de datos.
 -   `deployment_diagram.md`: Recomendaciones de infraestructura en Azure.
--   `progress_summary.md`: Resumen detallado de la implementación final.
