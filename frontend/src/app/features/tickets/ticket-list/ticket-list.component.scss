@@ -1,0 +1,42 @@
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-column-id {
+  max-width: 100px;
+}
+
+.mat-column-status {
+  text-align: center;
+
+  mat-chip-set {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.mat-column-actions {
+  text-align: right;
+  width: 60px;
+}
+
+tr.mat-row:hover {
+  background-color: whitesmoke;
+}

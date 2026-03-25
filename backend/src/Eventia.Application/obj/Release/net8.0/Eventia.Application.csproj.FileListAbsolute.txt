@@ -1,0 +1,15 @@
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/bin/Release/net8.0/Eventia.Application.deps.json
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/bin/Release/net8.0/Eventia.Application.dll
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/bin/Release/net8.0/Eventia.Application.pdb
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/bin/Release/net8.0/Eventia.Domain.dll
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/bin/Release/net8.0/Eventia.Domain.pdb
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/Release/net8.0/Eventia.Application.csproj.AssemblyReference.cache
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/Release/net8.0/Eventia.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/Release/net8.0/Eventia.Application.AssemblyInfoInputs.cache
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/Release/net8.0/Eventia.Application.AssemblyInfo.cs
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/Release/net8.0/Eventia.Application.csproj.CoreCompileInputs.cache
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/Release/net8.0/Eventia..47DA521D.Up2Date
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/Release/net8.0/Eventia.Application.dll
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/Release/net8.0/refint/Eventia.Application.dll
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/Release/net8.0/Eventia.Application.pdb
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/Release/net8.0/ref/Eventia.Application.dll

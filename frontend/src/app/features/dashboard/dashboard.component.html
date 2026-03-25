@@ -1,0 +1,32 @@
+<div class="dashboard-container">
+  <div class="welcome-header">
+    <h1>Panel de Control</h1>
+    <p>Bienvenido de nuevo, {{ currentUser()?.name }}</p>
+  </div>
+
+  <mat-grid-list cols="4" rowHeight="160px" gutterSize="20px">
+    <mat-grid-tile *ngFor="let stat of stats">
+      <mat-card class="stat-card">
+        <mat-card-content>
+          <div class="stat-icon" [style.background-color]="stat.color">
+            <mat-icon>{{ stat.icon }}</mat-icon>
+          </div>
+          <div class="stat-info">
+            <h2 class="stat-count">{{ stat.count }}</h2>
+            <p class="stat-title">{{ stat.title }}</p>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+  <mat-card class="quick-info-card">
+    <mat-card-header>
+      <mat-card-title>Resumen de Actividad</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Bienvenido al sistema de gestión de tickets Eventia S.A.S. Aquí podrás ver el estado de los requerimientos de
+        tus eventos de manera centralizada.</p>
+    </mat-card-content>
+  </mat-card>
+</div>

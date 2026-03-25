@@ -1,0 +1,48 @@
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.description {
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.metadata {
+  margin-bottom: 24px;
+
+  p {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+}
+
+.history-section {
+  margin-top: 20px;
+
+  h4 {
+    margin-bottom: 8px;
+  }
+}
+
+.notes {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.loading-state,
+.no-history {
+  padding: 20px;
+  text-align: center;
+  color: #999;
+}

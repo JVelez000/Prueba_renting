@@ -1,0 +1,11 @@
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/bin/Release/net8.0/Eventia.Domain.deps.json
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/bin/Release/net8.0/Eventia.Domain.dll
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/bin/Release/net8.0/Eventia.Domain.pdb
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/obj/Release/net8.0/Eventia.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/obj/Release/net8.0/Eventia.Domain.AssemblyInfoInputs.cache
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/obj/Release/net8.0/Eventia.Domain.AssemblyInfo.cs
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/obj/Release/net8.0/Eventia.Domain.csproj.CoreCompileInputs.cache
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/obj/Release/net8.0/Eventia.Domain.dll
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/obj/Release/net8.0/refint/Eventia.Domain.dll
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/obj/Release/net8.0/Eventia.Domain.pdb
+/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/obj/Release/net8.0/ref/Eventia.Domain.dll

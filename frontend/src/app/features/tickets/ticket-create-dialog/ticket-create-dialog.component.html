@@ -1,0 +1,33 @@
+<h2 mat-dialog-title>Nuevo Ticket</h2>
+<mat-dialog-content>
+  <form [formGroup]="ticketForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Título</mat-label>
+      <input matInput formControlName="title" placeholder="Ej: Fallo en sonido">
+      <mat-error *ngIf="ticketForm.get('title')?.hasError('required')">El título es requerido</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Evento</mat-label>
+      <mat-select formControlName="eventId">
+        <mat-option *ngFor="let event of events" [value]="event.id">
+          {{ event.name }}
+        </mat-option>
+        <mat-option *ngIf="events.length === 0" disabled>No hay eventos disponibles</mat-option>
+      </mat-select>
+      <mat-error *ngIf="ticketForm.get('eventId')?.hasError('required')">Debe seleccionar un evento</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Descripción</mat-label>
+      <textarea matInput formControlName="description" rows="4" placeholder="Detalle el problema..."></textarea>
+      <mat-error *ngIf="ticketForm.get('description')?.hasError('required')">La descripción es requerida</mat-error>
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions class="actions">
+  <button mat-button (click)="onCancel()">Cancelar</button>
+  <button mat-raised-button color="primary" [disabled]="ticketForm.invalid || submitting" (click)="onSubmit()">
+    {{ submitting ? 'Creando...' : 'Crear Ticket' }}
+  </button>
+</mat-dialog-actions>

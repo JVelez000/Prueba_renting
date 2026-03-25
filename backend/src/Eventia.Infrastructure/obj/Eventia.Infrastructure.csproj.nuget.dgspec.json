@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Infrastructure/Eventia.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/Eventia.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/Eventia.Application.csproj",
+        "projectName": "Eventia.Application",
+        "projectPath": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/Eventia.Application.csproj",
+        "packagesPath": "/home/jvelez/.nuget/packages/",
+        "outputPath": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jvelez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/Eventia.Domain.csproj": {
+                "projectPath": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/Eventia.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[16.1.1, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/Eventia.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/Eventia.Domain.csproj",
+        "projectName": "Eventia.Domain",
+        "projectPath": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/Eventia.Domain.csproj",
+        "packagesPath": "/home/jvelez/.nuget/packages/",
+        "outputPath": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jvelez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Infrastructure/Eventia.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Infrastructure/Eventia.Infrastructure.csproj",
+        "projectName": "Eventia.Infrastructure",
+        "projectPath": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Infrastructure/Eventia.Infrastructure.csproj",
+        "packagesPath": "/home/jvelez/.nuget/packages/",
+        "outputPath": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jvelez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/Eventia.Application.csproj": {
+                "projectPath": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Application/Eventia.Application.csproj"
+              },
+              "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/Eventia.Domain.csproj": {
+                "projectPath": "/home/jvelez/Documents/PruebaJeimsRenting/backend/src/Eventia.Domain/Eventia.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

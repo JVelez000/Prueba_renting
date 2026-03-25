@@ -1,0 +1,53 @@
+.sidenav-container {
+  height: 100vh;
+}
+
+.sidenav {
+  width: 240px;
+  background-color: #fafafa;
+  border-right: 1px solid #e0e0e0;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.main-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.user-info {
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  text-align: right;
+
+  .user-name {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .user-role {
+    font-size: 11px;
+    opacity: 0.8;
+  }
+}
+
+.main-content {
+  padding: 24px;
+  min-height: calc(100vh - 64px);
+  background-color: #f5f5f5;
+}
+
+.active-link {
+  background-color: rgba(63, 81, 181, 0.1);
+  color: #3f51b5;
+  border-left: 4px solid #3f51b5;
+}

@@ -1,0 +1,27 @@
+.table-container {
+  border-radius: 8px;
+  overflow: hidden;
+
+  table {
+    width: 100%;
+  }
+}
+
+.role-select {
+  width: 140px;
+
+  .mat-mdc-form-field-subscript-wrapper {
+    display: none;
+  }
+}
+
+.loading-row,
+.empty-row {
+  padding: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.content-header h2 {
+  margin-bottom: 16px;
+}

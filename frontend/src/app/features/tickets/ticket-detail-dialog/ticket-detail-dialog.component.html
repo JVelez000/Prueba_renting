@@ -1,0 +1,52 @@
+<h2 mat-dialog-title>Detalle del Ticket</h2>
+<mat-dialog-content class="mat-typography">
+  <div *ngIf="loading" class="loading-state">
+    Cargando...
+  </div>
+
+  <div *ngIf="!loading && detail">
+    <div class="ticket-header">
+      <h3>{{ detail.ticket.title }}</h3>
+      <mat-chip-set>
+        <mat-chip [color]="getStatusColor(detail.ticket.status)" selected>
+          {{ detail.ticket.status }}
+        </mat-chip>
+      </mat-chip-set>
+    </div>
+
+    <p class="description">{{ detail.ticket.description }}</p>
+
+    <div class="metadata">
+      <p><strong>Evento:</strong> {{ detail.ticket.eventName }}</p>
+      <p><strong>Creado por:</strong> {{ detail.ticket.createdByName }}</p>
+      <p><strong>Asignado a:</strong> {{ detail.ticket.assignedToName || 'Pendiente' }}</p>
+      <p><strong>Fecha creación:</strong> {{ detail.ticket.createdAt | date:'medium' }}</p>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <div class="history-section">
+      <h4>Historial de cambios</h4>
+      <mat-list>
+        <mat-list-item *ngFor="let item of detail.history">
+          <mat-icon matListItemIcon>history</mat-icon>
+          <div matListItemTitle>
+            {{ item.oldStatus }} → {{ item.newStatus }}
+          </div>
+          <div matListItemLine>
+            Por: {{ item.changedBy }} | {{ item.createdAt | date:'short' }}
+          </div>
+          <div matListItemLine *ngIf="item.notes" class="notes">
+            "{{ item.notes }}"
+          </div>
+        </mat-list-item>
+        <div *ngIf="detail.history.length === 0" class="no-history">
+          No hay cambios registrados.
+        </div>
+      </mat-list>
+    </div>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button (click)="dialogRef.close()">Cerrar</button>
+</mat-dialog-actions>
